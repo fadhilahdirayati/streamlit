@@ -15,7 +15,7 @@ with st.container():
     """,unsafe_allow_html=True)
 
     st.markdown("""
-        <h1 class="title" style='text-align: center;'>Bahaya Serangan Ransomeware</h1>
+        <h1 class="title" style='text-align: center;'>Bahaya Serangan Ransomware</h1>
     """, unsafe_allow_html=True)
     st.image("img/Ransomware_1.jpg")
 
