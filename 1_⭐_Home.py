@@ -20,13 +20,13 @@ with st.container():
     st.image("img/Ransomware_1.jpg")
 
     st.markdown("""
-    ## Apa itu Ransomeware ?
+    ## Apa itu Ransomware ?
     Ransomware merupakan sebuah nama dari kelas malware yang terdiri dari dua kata, ransom (tebusan) dan malware, yang bertujuan untuk menuntut pembayaran untuk data / informasi pribadi yang telah dicuri, atau data yang aksesnya dibatasi (enkripsi). Saat ini, malicious software telah melakukan diversifikasi (usaha memperoleh keuntungan) dengan cara mereka memeras uang dari korban. Orang dapat berargumen bahwa ransomware adalah bentuk pemerasan sederhana yang digunakan untuk pemerasan secara massal, disebarkan ke banyak pengguna dan dibuat lebih efisien dengan memanfaatkan Cryptocurrency untuk anonymity sebuah transaksi.
     \n\n
     Munculnya ransomware telah menjadi sebuah epidemi secara global karena hal tersebut terus memakan banyak korban di seluruh dunia, memaksa perusahaan untuk memutuskan antara mencoba memulihkan data dari cadangan (dan berpotensi kehilangan data penting sejak cadangan terakhir) dan membayar sejumlah besar tebusan kepada peretas. Ransomware telah menjadi berita utama baru-baru ini dengan mengumpulkan korban yang terkenal, termasuk rumah sakit Los Angeles, dan dua rumah sakit Jerman. Dari CryptoLocker, Locky, dan Kovter, hingga serangan baru-baru ini yang memanfaatkan CryptXXX, dan Petya. Pada tahun 2017, Rumah Sakit Kanker Dharmais dan Rumah Sakit Harapan Kita, Jakarta terkena ransomware Wannacry yang mengakibatkan beberapa database pasien pada komputer tidak dapat diakses. Malware bermodus menyandera data dan meminta tebusan uang itu telah mengunci sistem dan data pasien dengan meminta uang Rp 4 juta sebagai tebusan.
     \n\n
     
-    ### Tahapan Serangan Ransomeware
+    ### Tahapan Serangan Ransomware
     serangan ransomware diawali dengan “malware arrival” ditandai adanya aktivitas dari pengguna baik melakukan klik sebuah malicious links atau malicious software. Setiap malware yang telah diklik, akan secara otomatis melakukan koneksi ke C2C (Command and Control) yang merupakan pusat kegiatan malicious software untuk melakukan pengiriman perintah (Command) dan melakukan kontrol pada victim (Control). Pada tahap koneksi ke C2C, malware akan melakukan unduh file pendukung lainnya untuk dapat melakukan serangan lebih dalam lagi. Selanjutnya, malware akan mencari file penting untuk dapat melakukan pencurian atau target penguncian file. Setiap file yang menjadi target, akan dilakukan enkripsi dan akan memunculkan sebuah file note yang berisi alamat email penyerang beserta nomor rekening pembayaran untuk dapat melakukan dekripsi file yang terkunci. Dengan demikian, penyerang akan memberikan mekanisme dekripsi file jika pembayaran sudah dilakukan. Namun, hal tersebut tidak dapat dipastikan karena beberapa pengguna yang terkena ransomware dan melakukan pembayaran, penyerang tidak memberikan informasi ini
     
     ### Bagaimana Ransomware Menerobos Komputer Anda?
